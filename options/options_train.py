@@ -1,0 +1,25 @@
+# basic parameters
+dataroot = 'datasets/summer2winter'
+save_dir = 'models/checkpoints/'
+save_epoch_freq = 5
+print_freq = 100
+isTrain = True
+# model parameters
+input_nc = 3
+output_nc = 3
+# dataset parameters
+preprocess = 'resize'
+load_size = 256
+crop_size = 256
+batch_size = 1
+# training parameters
+epoch_count = 1 # the starting epoch
+n_epochs = 50
+n_epochs_decay = 50
+beta1 = 0.0
+lr = 0.0002
+lambda_A_B = 10.0
+lambda_identity = 0.5
+pool_size = 50
+# additional parameters
+verbose = False

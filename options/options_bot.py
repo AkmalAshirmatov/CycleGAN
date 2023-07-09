@@ -1,0 +1,13 @@
+# basic parameters
+save_dir = 'models/checkpoints/'
+isTrain = False
+# model parameters
+input_nc = 3
+output_nc = 3
+epoch = 90
+# dataset parameters
+load_size = 256
+# additional parameters
+verbose = False
+# tg bot
+BOT_TOKEN = ''

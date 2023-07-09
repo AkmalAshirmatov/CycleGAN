@@ -1,0 +1,7 @@
+datasets/monet2photo
+datasets/summer2winter
+datasets/generated/*
+.idea
+*/__pycache__
+models/checkpoints/*
+.DS_Store
