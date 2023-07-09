@@ -1,6 +1,6 @@
 datasets/monet2photo
 datasets/summer2winter
-datasets/generated/*
+datasets/generated/*.png
 .idea
 */__pycache__
 models/checkpoints/*
